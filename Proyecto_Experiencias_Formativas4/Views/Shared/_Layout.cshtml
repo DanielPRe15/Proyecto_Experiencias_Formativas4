@@ -123,11 +123,15 @@
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
+                       
+                    
+
                     <!-- Sidebar Toggle (Topbar) -->
                     <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
                         <i class="fa fa-bars"></i>
                     </button>
 
+                    <h1 class="display-4"> Bienvenido @ViewData["nombreUsuario"]</h1>
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
 
@@ -137,9 +141,9 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">@ViewData["nombreUsuario"]</span>
                                 <img class="img-profile rounded-circle"
-                                     src="https://images.unsplash.com/photo-1519648023493-d82b5f8d7b8a?w=300">
+                                     src="https://assets.stickpng.com/images/585e4bd7cb11b227491c3397.png">
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
@@ -172,7 +176,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2021</span>
+                        <span>Copyright &copy; Proyecto EFSRT III 2023</span>
                     </div>
                 </div>
             </footer>
@@ -200,6 +204,15 @@
 
 </body>
 </html>
+
+<style>
+    nav .display-4 {
+        margin-left: 30px;
+        font-size: 25px;
+    }
+
+
+</style>
 
 
 

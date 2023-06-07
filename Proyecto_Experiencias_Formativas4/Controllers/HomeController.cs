@@ -34,6 +34,10 @@ namespace Proyecto_Experiencias_Formativas4.Controllers
 
             return View();
         }
+        public IActionResult Perfil()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {
@@ -52,5 +56,6 @@ namespace Proyecto_Experiencias_Formativas4.Controllers
 
             return RedirectToAction("IniciarSesion", "Inicio");
         }
+
     }
 }

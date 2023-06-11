@@ -16,32 +16,29 @@
                 <form>
                     <div class="form-row">
                         <div class="form-group col-sm-12">
-                            <img id="imgFoto" src="https://images.unsplash.com/photo-1519648023493-d82b5f8d7b8a?w=300" class="rounded mx-auto d-block" style="width: 200px; height: 200px;">
+                            <img id="imgFoto" src="https://assets.stickpng.com/images/585e4bd7cb11b227491c3397.png" class="rounded mx-auto d-block" style="width: 200px; height: 200px;">
                         </div>
                     </div>
-                    <div class="form-row">
-                        <div class="form-group col-sm-12">
-                            <label for="txtNombre">Nombre</label>
-                            <input type="text" class="form-control form-control-sm" disabled id="txtNombre">
-                        </div>
+                    <div class="form-group">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" name="nombre" disabled>
                     </div>
-                    <div class="form-row">
-                        <div class="form-group col-sm-12">
-                            <label for="txtCorreo">Correo</label>
-                            <input type="email" class="form-control form-control-sm" id="txtCorreo">
-                        </div>
+                    <div class="form-group">
+                        <label for="apellido" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" name="apellido">
                     </div>
-                    <div class="form-row">
-                        <div class="form-group col-sm-12">
-                            <label for="txTelefono">Telefono</label>
-                            <input type="text" class="form-control form-control-sm" id="txTelefono">
-                        </div>
+
+                    <div class="form-group">
+                        <label for="telefono" class="form-label">Telefono</label>
+                        <input type="text" class="form-control" name="telefono">
                     </div>
-                    <div class="form-row">
-                        <div class="form-group col-sm-12">
-                            <label for="txtRol">Rol</label>
-                            <input type="text" class="form-control form-control-sm" disabled id="txtRol">
-                        </div>
+                    <div class="form-group">
+                        <label for="direccion" class="form-label">Direccion</label>
+                        <input type="text" class="form-control" name="direccion">
+                    </div>
+                    <div class="form-group">
+                        <label for="cargo" class="form-label">Cargo</label>
+                        <input type="text" class="form-control" name="cargo" disabled>
                     </div>
                     <hr>
                     <div class="row">
@@ -82,7 +79,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-sm-12">
-                            <button type="button" class="btn btn-success btn-sm btn-block" id="btnCambiarClave">Guardar Cambios</button>
+                            <button type="submit" class="btn btn-success btn-sm btn-block" id="btnCambiarClave">Guardar Cambios</button>
                         </div>
                     </div>
                 </form>
